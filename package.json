@@ -1,0 +1,33 @@
+{
+  "name": "mongo-connection-string-builder",
+  "version": "1.1.0",
+  "description": "module to provide you mongo connection string based on ENV variables for username and password along with setting options",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha specs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StuartGreenhall/canonical-db.git"
+  },
+  "keywords": [
+    "database",
+    "Authenticated",
+    "mongo",
+    "connection string",
+    "mongodb",
+    "db",
+    "Authenticate",
+    "naming"
+  ],
+  "author": "Stuart Greenhall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StuartGreenhall/canonical-db/issues"
+  },
+  "homepage": "https://github.com/StuartGreenhall/canonical-db#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
+  }
+}
